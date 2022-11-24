@@ -11,6 +11,15 @@ pcm.i2s_48k {
     rate 48000
 }
 
+pcm.i2s_16k {
+    type hw
+    card sndrpisimplecar
+    device 0
+    format S32_LE
+    channels 2
+    rate 16000
+}
+
 #
 # VocalFusion playback device.
 # plug - rate and format conversion

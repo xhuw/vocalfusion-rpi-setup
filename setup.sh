@@ -174,7 +174,7 @@ if [[ -n "$I2S_MODE" ]]; then
     CMD=make
   fi
   echo $CMD
-  eval $CMD
+  eval sudo $CMD
   if [[ $? -ne 0 ]]; then
     echo "Error: I2S kernel module build failed"
     exit 1
