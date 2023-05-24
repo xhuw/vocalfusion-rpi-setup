@@ -78,6 +78,7 @@ For XVF3510-UA and XVF361x-UA devices these actions will be done as well:
 
     ```
     sudo apt-get update
+    sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
     sudo apt-get upgrade
     sudo reboot
     ```
